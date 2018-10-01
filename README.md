@@ -18,3 +18,11 @@ $tg_token="botTOKEN";             #bot token telegram messenger
 $tg_chatid="-chatid";		  #chat id (id чата в который бот будет отправлять сообщения)
 6)добавьте в крон примерно следующее задание(отредактировать по своему вкусу)
 */1 *   * * * avreg /usr/bin/php /usr/local/bin/avreg-events.php > /dev/null 2>&1
+
+Добавлена версия на python3
+перед запуском надо установить библиотеки
+psutil
+mysql-connector
+
+pip3 install mysql-connector
+pip3 install psutil
